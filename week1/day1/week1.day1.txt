@@ -1,0 +1,95 @@
+Todays Agenda!!
+================
+   9:45-10:30-Java and Automation Introduction
+   10:30-11:00-Project,package,Class and sample Programs
+   11:20-11:50-Breakout+Break
+   11:50-12:20-Methods,Object
+   12:20-12:35-Breakout
+   12:35-12:40-Recap
+
+Class: A testcase java file where you write a logic
+ 
+ * A class is a user defined blue print or templates
+ 
+ what can be inside a class? 
+ constructor,method,variable,object.
+ 
+ class name started with uppercase
+ 
+ its PASCAL CASE
+ 
+ ex: SoftwareTest
+ TestLeaf
+
+
+
+
+
+
+what is method?
+ 
+ Method is a smaller line of code that does some specific operations/action
+ 
+ name convention is starting with lowercase following word should be in uppercase
+ it is CAMEL CASE .
+ 
+ ex: maxMark()
+ firstCode()
+ 
+ Method syntax:
+ 
+ Accessmodifier Returntype  name()
+ 
+ public void maxMark(){
+ 
+ }
+ public ---Access modifier ---Specifics who can access
+ void   ---Return type---output of method
+ maxMark ---name--name of the method
+ ()-input arguments----0,1,2,....n
+
+
+
+What is object?
+       its an instance classname
+ 
+ 1. create an object for classname
+ 2. call the method using the object
+ 
+ syntax: classname objectname= new classname();
+ 
+ new--> is keyword 
+ 
+ classname()-- constructor
+ 
+ objectname.method1();
+ ====================================================
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   Classroom:
+a) Create a class by name: Chrome (with no main method) in same package
+b) Create a method by name: getName()
+c) Print a statement inside the method --> "This is google chrome"
+d) Call the method getName() from class: Browser using object reference
+e) Run Browser class and Confirm the printed in console
