@@ -1,0 +1,83 @@
+Todays Agenda!!
+================
+   9:40-10:30-Data Type
+   10:40-11:10-Breakout+Break
+   11:10-11:40-Control statements(If condition)
+   11:40-11:55-Breakout
+   12:00-12:30-ForLoop
+   12:30-12:45-Breakout
+   12:45-12:50-Recap
+
+ what is primitive datatypes:
+ A primitive type is predefined by the language and is named by a reserved keyword.
+ 
+ we have 8 primitive datatype
+ 
+ 1. INT
+ 2. SHORT
+ 3. FLOAT
+ 4. BOOLEAN
+ 5. CHAR
+ 6. DOUBLE
+ 7. LONG
+ 8. BYTE
+ 
+ only 4- int,float,char,boolean
+ 
+ INT(no decimals)- age-25
+ 
+ FLOAT-FD rate-6.5f or F
+ 
+ char--'d'/'@'/'8'/'W'
+ 'dh'--it will  not take
+ 
+ boolean-yes/no--true/false
+ 
+ short,long ,int
+ 
+ double-10/3=3.3333333
+ 
+ byte-2
+ 
+ long- 1234568907l or L
+
+
+
+CONTROL STATEMENTS:
+
+*Loop
+*Conditional statement
+
+Loop:
+
+repeat the same logic  to run multiples
+
+doing same thing again and again
+
+two types:
+for loop----whenever you know how many times you need to loop it.
+10 times
+
+while loop---when you do not know how many times we need to loop it, as it based on condition.
+
+
+Conditional statement:
+if-else
+
+if---when condition is true it will print output
+
+else-- when condition get false it  will print out
+
+nested if ---inside the if
+
+//syntax
+		if() {
+			
+		}else {
+			
+		}
+
+
+
+
+    int number=56538
