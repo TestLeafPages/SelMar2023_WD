@@ -1,0 +1,160 @@
+Todays Agenda!!
+================
+   9:30-09:50-Method Signature
+   09:50-10:40-Arrays
+   10:40-11:10-Breakout+Break
+   11:10-12:10-string
+   12:10-12:30-Breakout
+   12:30-12:40-Recap
+
+
+Method Signature:
+
+Method syntax:
+ Accessmodifier Returntype  name()
+ 
+ public void maxMark(){
+ 
+ }
+
+public ---Access modifier ---Specifics who can access
+ void   ---Return type---output of method
+ maxMark ---name--name of the method
+ ()-input arguments----0,1,2,....n
+
+Returntype-void,datatypes
+ void- no return type
+ data types- will return 
+
+
+Accessmodifier-
+ 1.public
+ 2.private
+ 3.default
+ 4.protected
+
+
+
+
+Arryas:
+=======
+
+what is array?
+
+An array is collection of similar datatypes
+Array index start from '0'
+its fixed data 
+if you not given values to arrya .its aste and e cannot reuse
+
+
+
+
+
+String:
+=======
+String is class
+collection of characters
+
+String is immutable--- we cannot changeable
+
+
+to types e can create string
+1.STRING LITERAL
+2.STRING OBJECT
+
+STRING LITERAL
+String company ="TestLeaf";
+
+STRING OBJECT:
+String company=ne String("TestLeaf");
+
+Methods:
+length()--to find 	ho many characters --int
+toCharArray()-- covert string to character array--char[]
+equals("")-- to compare String content--boolean
+equalIgnoreCase()--it ill not compare loercase or uppercase
+contins()--  compare the string ith matching content-- boolean
+indexOf()-- ill return the index  position of the given character---int
+CharAt()--character available in the given  position---character
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   Classroom 1:
+Find the duplicate number in the given Arrays
+int[] input={2,5,3,1,4,5,7,6,3,2}
+
+1.Declare values
+2.get the length of the array 
+3.iterate from 0 to the array length-1 (outer loop starts here)
+4.iterate from i to the length of the array by adding 1 to it (inner loop starts here)
+5.compare both the loop variables & check they're equal
+6.print the matching value
+
+
+Classroom 2:
+FindSecondLargest 
+// Here is the input
+		int[] data = {3,2,11,4,6,7};
+		 Pseudo Code:
+		 1) Arrange the array in ascending order
+		 2) Pick the 2nd element from the last and print it
+
+
+
+
+
+Classroom 3:
+ReverseString 
+
+// Here is the input
+		String test = "feeling good";
+
+		// Build the logic to find the count of each
+		/* Pseudo Code: 1
+			a) Convert the String to character array
+			b) Traverse through each character (using loop in reverse direction)
+			c) Print the character (without newline -> like below
+			   System.out.print(ch);
+		*/
+
+Classroom 4:
+
+String str="Amazon have 1200 woodenproduct outof 100000";
+split the string 
+use replaceall method to remove words
+print in console
