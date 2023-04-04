@@ -1,0 +1,50 @@
+Todays Agenda:
+
+   9:30-10:30-Selenium Introdution
+   10:30-10:55-Classroom+Break
+   10:55-11:55-Locators
+   11:55-12:25-Classroom
+   12:25-12:35-Recap
+
+   Basic Loctors:
+
+we have 8 Loctors:
+
+ID----1st 
+NAME-- 2nd
+CLASS NAME--3rd
+LINK TEXT- 4th--------when we have <a> and hyperlink
+TAG NAME--5th-----
+PARTIAL LINK TEXT--6th--- number
+XPATH--7th
+CSS SELECTOR --8th
+
+
+Rules for basic locators 
+
+ * *Id locator - if contain with number in value means we should not use it.
+Eg: id="username12" --change browser to  browser
+
+* *Class locator - if contain with white space in the value we should not use it 
+Eg: class="CheckBox  gent input"
+
+* *Name locator - if we have  duplicates  name means we should not use name locator .
+
+
+🚨🚨 important thing you should not do inspect form Automation page.
+
+http://leaftaps.com/opentaps/control/main
+Demosalesmanager
+crmsfa
+
+
+ClassRoom:
+steps:
+1.setup the driver
+2.load the url
+3.maximize browser
+4.close browser
+
+url:https://login.salesforce.com/
+username:hari.radhakrishnan@qeagle.com
+password:Leaf@123
