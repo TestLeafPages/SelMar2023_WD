@@ -1,0 +1,64 @@
+Todays Agenda:
+
+   9:40-10:40-Adavance Xpath
+   10:45-11:20-Classroom+Break
+   11:15-11:45-Xpath
+   11:45-12:05-Classroom
+   12:05-12:30-Webdriver methods
+   12:30-12:35-Recap
+
+
+
+   
+in Advancexapth we have 8 xpaths
+
+1.parent - child----1st
+syntax:
+basic xpath for parent/tagname of child
+
+//form[@id='login']/p
+
+(//form[@id='login']/p)[2]
+
+//p[@class='top']/input
+
+2.child to parent--3rd
+basic xpath for child/parent::parent tagname
+
+//input[@id='password']/parent::p
+//input[@class='decorativeSubmit']/parent::p
+//label[text()='Username']/parent::p
+
+3.grandparent to grandchild----2nd
+basic xpath for grandparent//tagname of grandchild
+
+(//div[@id='form']//p)[4]
+//form[@id='login']//label
+
+//form[@id='login']//input[@class='decorativeSubmit']
+
+4.grandchild to grandparent--4th
+basic xpath for gc/ancestor::tagname of grandparent
+
+//input[@class='decorativeSubmit']/ancestor::form
+//input[@name='firstName']/ancestor::tr
+
+
+
+
+
+5.elder sibling to younger sibling-5th
+basic xpath for elder sibling/following-sibling::tagname of younger sibling
+//label[text()='Password']/following-sibling::input
+
+6.younger sibling to elder sibling--6th
+basic xpath for ys/preceding-sibling::tagname es
+//input[@id='username']/preceding-sibling::label
+
+7.ec to yc
+basic xpath for ec/following::tagname yc
+//label[text()='Username']/following::input[@id='password']
+
+8.yc to ec
+
+//input[@id='password']/preceding::label

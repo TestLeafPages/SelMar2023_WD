@@ -1,0 +1,64 @@
+Todays Agenda:
+
+   9:30-10:15-Select Class+Implicitly wait
+   10:35-11:05-Classroom+Break
+   11:10-12:10-Xpath-Basic xpath
+   12:10-12:30-Classroom
+   12:30-12:35-Recap
+
+ How to handle dropdown:
+   ======================
+     1)Right Click ->Inspect the dropdown-
+     2)Find whether that elment is inside a select tag  
+     3)Create an object for Select Class and pass the WebElement inside the Constructor
+     4)Using the object of the Select Class->Use any of these three methods 
+         -selectByIndex()
+         -selectByValue()
+         -selectByVisibleText()
+
+
+
+
+Implicitly Wait:
+-----------------
+- Its a common wait for all the locators in my script (findElement & findElements)			
+- It is used to avoid the NoSuchElementException when the element is loaded little late
+- If the element is loaded within the given time limit, it will locate element immediately and 
+  proceed with next step in the script
+- If the element is not loaded within the given time limit, it will throw NoSuchElementException
+- Best practice is, apply ImplicitlyWait at the starting of your script
+
+
+Xpath:
+======
+            It is used to locate the elements if the other locators are not present/same/different 
+            Index starts with 1
+Xpath- Xml path
+ 1. Absolute xPath
+        - It starts with '/'
+        - tagName is mandatory
+        - start from pydoc import pager
+from root tag
+        - index for xPath starts with 1
+
+/html/body/div[2]/div[2]/div/form/p/input
+    - when new tag is introduces, xPath breaks
+    - Difficult to write
+
+    2. Relative xPath
+        - It starts with '//'
+        - tagName is mandatory
+
+
+attribute based xpath-
+//input[@id='password']
+
+text based xpath-
+//a[text()='Create new account']
+
+//a[contains(text(),'CRM')]
+
+collection based(//input[@class='inputLogin'])[2]
+
+
+
