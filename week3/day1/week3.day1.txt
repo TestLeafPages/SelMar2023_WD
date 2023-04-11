@@ -1,0 +1,33 @@
+Todays Agenda:
+
+   09:40-10:30-Oops -Inheritance
+   10:30-11:00-Classroom+Break
+   11:45-12:20-Polymorphism-method overloding,method overriding
+   11:20-12:35-Classroom
+   
+   12:05-12:35-String
+   12:35-12:40-Recap
+
+
+OOPs-Object - Oriented Programming lang
+
+every this based onthe Object
+
+Inheritance-
+parent-child
+
+mani- in-law--ooty
+
+mani-3bhk-in ECR---4
+
+main-father's-4bhk--kodaikanal
+
+main-grandfatther's--land-native
+
+
+
+simple Inheritance
+parent - grandparent
+
+multilevel Inheritance
+son-parent-gp
