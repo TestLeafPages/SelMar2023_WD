@@ -1,0 +1,117 @@
+
+Todays Agenda:
+
+   09:40-11:00-Collection-SET
+   11:00-11:30-Classroom+Break
+   11:30-12:30-Java Keywords
+   12:30-12:35-Recap
+
+
+
+Set:
+-Interface -It cannot hold duplicate data/only Unique
+
+Implementation class:
+Hash set----ra ndom order
+LinkHash set---insertion order
+Tree set---ascii values
+Method of set:
+1) size()-> Number of items in the set
+2) add()->  to add the data in a set
+3) remove() -> to remove the data / element
+4) get() - > this method is not available  because of the implementation class(index differs)
+5) Collections.sort()-->it will not happen(Tree set)
+
+
+list{1,4,7,7,8,5,9,3,67,867,89} --get(10)-0-10
+//duplicate will not allow
+{1,4,7,7,8,5,9,3,67,867,89,89}--get 8-get(4)
+
+set{1,4,7,8,5,9,3,67,867,89}---0-9--get(3)
+7-details
+7-dis
+get(9)
+
+
+set{1,4,7,8,5,9,3,67,867,89}---0-9--get(3)
+
+set() convert into list then i can use get()
+
+classroom 1: Remove Duplicates: int[] num={3,5,7,2,5,7,9,2,1,54,8,4,6,4,8} 
+i.declear a set
+ii. hint (i need random order)
+iii.Iterate through a loop and add data 
+iv.print values output will be.{3,5,7,2,9,1,54,8,4,6}
+
+Classroom 2: Print only unique characters in the given string
+ String companyName = "google" --> "gole" 
+ Hints: convert to chararray Use Set with add method.
+
+
+ Keywords:
+ static
+ final
+ this
+ super
+
+static keyword:
+static-it will stored inthe Stack memory
+
+two-
+1.static
+2.non static
+
+
+The static keyword can be used as a 
+static variable, static method, static block, and static class. 
+1.static keyword with variable it is called static variable
+
+Syntax to declare the static variables:
+
+static dataType variableName = value;
+
+2. Static method in Java
+
+You can declare a static method by using of static keyword.
+
+1. Static methods are belonging to a class.
+2. You can access a static method by using the class name. You do not have the need to create an object.
+3. A static method can access only static variables. If you write any non-static variable in a static method,
+then it will throw an exception at compilation time.
+syntax:
+access_modifier static return_Type method_Name()
+{
+    // body of method
+}
+
+
+
+
+final 
+-----
+its a keyword used to apply some restriction to the user
+cvv-123
+
+final can applied to classes,method,variable
+
+1.final variable-constant you cannot changes the value
+2.final method-you cannot override the final method
+3.final class-you cannot extends the final class
+
+
+
+ this Keyword:
+---refer current class method
+---used for constructor chaining
+---pass arg in method can use this
+---return current class instance
+this-->return same class object 
+
+Super--> The super keyword in java comes in a role with the concept of inheritance.
+the super keyword refers to the object of an immediate parent class. It means the 
+super keyword uses in subclasses to access the object of the superclass.
+variable, constructor, and method of a superclass by using the super keyword. 
+1. Java super keyword can access the variable of the parent class  
+2. Java super keyword can invoke the constructor of the parent class
+3. Java super keyword can access the method of the parent class
+
