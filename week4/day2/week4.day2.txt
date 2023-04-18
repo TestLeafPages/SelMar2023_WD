@@ -1,0 +1,126 @@
+Agenda for Today:
+=================
+  
+   9.30to 10:50 ---windowHandling,SnapShot
+   10.55 to 11.30---Classroom 
+   11.30 to 12.00---Explicit wait
+   12.00 to 12.30---String,Actions class
+   
+
+
+
+Window Handling:
+----------------
+To locate the window -> Selenium WebDriver gives an unique reference
+
+How to get the reference of window?
+------------------------------------
+getWindowHandle() -> to get the refernce of current window ; return String
+getWindowHandles() -> to get all the window references ; return Set<String>
+
+To get single data from Set:
+-----------------------------
+1. Convert the Set into List
+2. Use get(index) in List
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+SnapShot:
+==================
+
+<dependency>
+    <groupId>commons-io</groupId>
+    <artifactId>commons-io</artifactId>
+    <version>2.11.0</version>
+</dependency>
+
+
+Waits:
+============
+  -Implicit wait--Selenium
+     It is applicable for findElement and findElements()
+     It will search for the element inside the DOM
+     NoSuchelementException
+   
+
+ -Explicit Wait:
+    When you like to wait for the behaviour of the element 
+
+    a)to become clickable
+    b)element to visible
+    c)element to become enabled
+    d)alert to appear
+    e)window to appear   
+
+
+    Thread.sleep(8000) -java wait
+     It is applicable for a single line of code
+     It will sleep for 8000ms
+     It is not a good approach
+     It will slow down the execution process
+ 
+
+    FluentWait 
+      It is the parent class if WebDriverWait
+    WebDriverWait
+    Solution:
+      Every 500ms (polling interval) , the code will check if the expected condition is met
+
+      If it is met - > perform the action
+      If it is not met - > sleep for another 500ms before polling again
+
+      After croosing the maximum limit - > It will throw TimeOutException   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ClassRoom:
+
+1.launch browser
+2.load url'https://www.irctc.co.in/'
+3.click on flights
+4.handle window
+5.get the title of page & take snap of page
+6.close current window 
+7.swtich to first window 
+8.get the title of page
+9.quit browser
+
+
+
+
+
+
+
+
+
+
+
