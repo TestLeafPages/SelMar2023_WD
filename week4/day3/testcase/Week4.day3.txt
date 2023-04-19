@@ -1,0 +1,60 @@
+Today's Agenda:
+==============
+   1)9:30-10:10->TestNG Introduction
+   2)10:10-10:30->ClassRoom
+   3)10:30-10:55->Sequential Execution
+   4)10:55:11:30->Classroom+ Break
+   5)11:30-11:50->Parallel Execution
+   6)11:50-12:05->Classroom
+   7)12:05-12:35->String
+
+
+   TestNG-- Test Execution Framework
+   --support only java programming language
+   
+   TestNG---Test NEXT GENERATION
+   --comb of Junit and Nunit
+   --cedric
+   --Junit
+   
+   why we going to framework?
+
+Limitations:
+===========
+   1)One by One  
+       -Time Consuming 
+       -Same data
+       -Manually someone have to be present
+     Requirement:
+        -Run automatedly-Sequential,Parallel
+
+   2)Run for hardcoded data 
+       Requirement: 
+        -run for different data
+   
+   3)There is no reporting
+      Requirement:
+        -Atleast basic reporting (passes,failed,skipped)
+		s
+   4)There is no way to filter the tests to run 
+     Requirement:
+        -Group the desired testcases 
+
+   5)There is no way to rerun the failed testcases 
+     Requirement:
+        Automated retry
+		
+
+
+
+
+ Steps to run as TestNG:
+ ======================
+    1)Convert the main method to a normal method
+	   -remove static
+	   -remove arguments
+	2)Give a meaningful name to your method
+	
+	3)Add @Test at the top of the method and import it
+	
+	4)Run as TestNG      
