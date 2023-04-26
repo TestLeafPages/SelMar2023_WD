@@ -1,0 +1,40 @@
+Agenda for Today:
+=================
+  
+   09.30-10:10-> Cucumber Introduction
+   10:10-10:25->Featurefile
+   10:25-11:05->Classroom(Featurefile)+Break
+   11:05-11:40-> Step Definition & Runner
+   11:40-12:10->Classroom
+   12.10-12:30->pass multiple data in cucumber
+
+
+
+Cucumber-BDD framework
+
+Behaviour driven development
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   ● Steps to Create File :-
+       Creating features package, 
+       Mouseover on it & Right Click --> New --> Other... --> Select File under General Folder --> Click Next
+      ● Set File name as Login.feature & Click Finish
+      ● U can see a new file Created under features package like slice of Cucumber IMG 
+Then it's Fine👍🏻🙂
