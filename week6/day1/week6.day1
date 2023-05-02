@@ -1,0 +1,104 @@
+Todays Agenda:
+===============
+   09:30-10:00->POM introduction
+   10:00-10:30->POM Design
+   10:40-11:20->Classroom+break
+   11:20-12:00->parallel execution,static parameter
+   12:00-12:30->Classroom
+  
+   POM:
+===============
+
+what is POM?
+POM- page object model
+pom.xml--->project object model
+
+
+POM--> Page Object Model  
+
+POM is framework or not?
+its not framework
+POM is design pattern
+
+	  
+
+	  POM->Page Object Model
+	   
+	 -Page Object Model is a design pattern to build your framework
+
+
+
+POM:
+4-package
+
+1.Base class- commom code
+
+2.Pages-
+Login
+-username
+-password
+-login
+HomePage
+-crmsfa
+
+
+3.Runner or testcase
+
+4.Utils
+
+
+
+
+
+
+Steps to Implement PageObjectModel:
+==================================
+   1)Create a separate Project for POM
+   2)Add all the dependencies in the pom.xml
+   3)Create 3 packages (base,pages,runner or testcase)
+   4)Inside base package create a BaseClass
+   5)Inside the BaseClass have preCondition and PostCOndition(Load the url)
+   6)Inside the pages package create 6 pages
+       -LoginPage
+	   -WelcomePage or HomePage
+	   -MyHomePage
+	   -MyLeadsPage
+	   -CreateLeadPage
+	   -ViewLeadPage
+   7)Make sure all the pages should extend your BaseClass
+   8)For each Pages create separate methods and put the codes for each of your action
+   9)Finally add the return statement
+        -If the control stays  in the same page return this and change the return type
+        -If the control moves to another page then add return statement according to it
+
+Need to stay in same page-use this(keyword)
+connet one page to another need use- return new constructor
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+static ---only one window id  create for all class
+
+2 class 
+        1st tab open-----window  id 
+        2nd tab open----- different
+
+
+
+        execute in parallel in POM
+        =============================
+        1. to remove static keyword from base class
+        2. you need create own constructor  all the class ,this.driver=driver
+        3.where you given return new constructor(driver)-need pass the driver inside method
